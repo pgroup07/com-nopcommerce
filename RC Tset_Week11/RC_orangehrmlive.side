@@ -1,0 +1,205 @@
+{
+  "id": "56f4e247-bcc6-44a6-92cb-a07afbd5c657",
+  "version": "2.0",
+  "name": "com-orangehrmlive",
+  "url": "https://opensource-demo.orangehrmlive.com",
+  "tests": [{
+    "id": "6afd16f2-e972-4caa-b4be-ba9035e8e75d",
+    "name": "Test_Orangehrmlive",
+    "commands": [{
+      "id": "0708bf82-17b9-4ccd-b83b-661cd77ee140",
+      "comment": "",
+      "command": "open",
+      "target": "/web/index.php/auth/login",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "a8af8338-828e-487d-9c41-c147605ae521",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1058x804",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "eda92ae5-a498-46b7-a52f-b9d8d8dd71c7",
+      "comment": "",
+      "command": "click",
+      "target": "css=.orangehrm-login-branding > img",
+      "targets": [
+        ["css=.orangehrm-login-branding > img", "css:finder"],
+        ["xpath=//img[@alt='company-branding']", "xpath:img"],
+        ["xpath=//div[@id='app']/div/div/div/div/div/img", "xpath:idRelative"],
+        ["xpath=//img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "511db791-1f79-4248-8875-e7eee45267ee",
+      "comment": "",
+      "command": "click",
+      "target": "css=.oxd-text--h5",
+      "targets": [
+        ["css=.oxd-text--h5", "css:finder"],
+        ["xpath=//div[@id='app']/div/div/div/div/div[2]/h5", "xpath:idRelative"],
+        ["xpath=//h5", "xpath:position"],
+        ["xpath=//h5[contains(.,'Login')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "8867492b-103a-4e40-9269-8bf13fc5af2d",
+      "comment": "",
+      "command": "click",
+      "target": "name=username",
+      "targets": [
+        ["name=username", "name"],
+        ["css=.oxd-input--focus", "css:finder"],
+        ["xpath=//input[@name='username']", "xpath:attributes"],
+        ["xpath=//div[@id='app']/div/div/div/div/div[2]/div[2]/form/div/div/div[2]/input", "xpath:idRelative"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "8d9f8cf8-8820-4c99-8f11-b71ec6793bb8",
+      "comment": "",
+      "command": "click",
+      "target": "name=password",
+      "targets": [
+        ["name=password", "name"],
+        ["css=.oxd-input--focus", "css:finder"],
+        ["xpath=//input[@name='password']", "xpath:attributes"],
+        ["xpath=//div[@id='app']/div/div/div/div/div[2]/div[2]/form/div[2]/div/div[2]/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "6ca8f9a1-9aa1-4eee-9bfd-6e7c115a890d",
+      "comment": "",
+      "command": "click",
+      "target": "css=.oxd-button",
+      "targets": [
+        ["css=.oxd-button", "css:finder"],
+        ["xpath=//button[@type='submit']", "xpath:attributes"],
+        ["xpath=//div[@id='app']/div/div/div/div/div[2]/div[2]/form/div[3]/button", "xpath:idRelative"],
+        ["xpath=//button", "xpath:position"],
+        ["xpath=//button[contains(.,'Login')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "49c7d026-cc95-44f6-8459-5cff871fdf7f",
+      "comment": "",
+      "command": "click",
+      "target": "css=.orangehrm-login-forgot-header",
+      "targets": [
+        ["css=.orangehrm-login-forgot-header", "css:finder"],
+        ["xpath=//div[@id='app']/div/div/div/div/div[2]/div[2]/form/div[4]/p", "xpath:idRelative"],
+        ["xpath=//div[4]/p", "xpath:position"],
+        ["xpath=//p[contains(.,'Forgot your password?')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "c81486a1-1f2f-4ffa-99d1-ba95aed089b1",
+      "comment": "",
+      "command": "click",
+      "target": "css=.oxd-button--ghost",
+      "targets": [
+        ["css=.oxd-button--ghost", "css:finder"],
+        ["xpath=//button[@type='button']", "xpath:attributes"],
+        ["xpath=//div[@id='app']/div/div/div/form/div[2]/button", "xpath:idRelative"],
+        ["xpath=//button", "xpath:position"],
+        ["xpath=//button[contains(.,'Cancel')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "e8c44c79-e71f-48ba-b401-cdce39226cf8",
+      "comment": "",
+      "command": "click",
+      "target": "css=.orangehrm-copyright:nth-child(1)",
+      "targets": [
+        ["css=.orangehrm-copyright:nth-child(1)", "css:finder"],
+        ["xpath=//div[@id='app']/div/div/div/div/div[2]/div[3]/div[2]/p", "xpath:idRelative"],
+        ["xpath=//div[2]/p", "xpath:position"],
+        ["xpath=//p[contains(.,'OrangeHRM OS 5.4')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "69579f83-9710-4896-85a8-007a8cf40317",
+      "comment": "",
+      "command": "click",
+      "target": "css=.orangehrm-copyright:nth-child(2)",
+      "targets": [
+        ["css=.orangehrm-copyright:nth-child(2)", "css:finder"],
+        ["xpath=//div[@id='app']/div/div/div/div/div[2]/div[3]/div[2]/p[2]", "xpath:idRelative"],
+        ["xpath=//div[2]/p[2]", "xpath:position"],
+        ["xpath=//p[contains(.,'© 2005 - 2023 OrangeHRM, Inc. All rights reserved.')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "a5ac5927-54c4-457b-985d-3ce3fcda73fa",
+      "comment": "",
+      "command": "click",
+      "target": "css=.orangehrm-copyright:nth-child(2)",
+      "targets": [
+        ["css=.orangehrm-copyright:nth-child(2)", "css:finder"],
+        ["xpath=//div[@id='app']/div/div/div/div/div[2]/div[3]/div[2]/p[2]", "xpath:idRelative"],
+        ["xpath=//div[2]/p[2]", "xpath:position"],
+        ["xpath=//p[contains(.,'© 2005 - 2023 OrangeHRM, Inc. All rights reserved.')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "0d5fc262-aa60-4836-bbf3-906722bf17bf",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=OrangeHRM, Inc",
+      "targets": [
+        ["linkText=OrangeHRM, Inc", "linkText"],
+        ["css=.oxd-text > a", "css:finder"],
+        ["xpath=//a[contains(text(),'OrangeHRM, Inc')]", "xpath:link"],
+        ["xpath=//div[@id='app']/div/div/div/div/div[2]/div[3]/div[2]/p[2]/a", "xpath:idRelative"],
+        ["xpath=//a[@href='http://www.orangehrm.com']", "xpath:href"],
+        ["xpath=//p[2]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'OrangeHRM, Inc')]", "xpath:innerText"]
+      ],
+      "value": "",
+      "opensWindow": true,
+      "windowHandleName": "win2798",
+      "windowTimeout": 2000
+    }, {
+      "id": "4fa4d059-b3c2-4631-ad60-5d80611ff5ec",
+      "comment": "",
+      "command": "storeWindowHandle",
+      "target": "root",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "52948a92-95f7-4700-96bf-28a6d46f61f5",
+      "comment": "",
+      "command": "selectWindow",
+      "target": "handle=${win2798}",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "fdec0996-c262-4cb9-a062-27c3e68d7927",
+      "comment": "",
+      "command": "close",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "b1fa5a7b-f0d6-41a5-9b0e-94b38d8a5e8f",
+      "comment": "",
+      "command": "selectWindow",
+      "target": "handle=${root}",
+      "targets": [],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "9348de8e-50a1-4588-9b82-1e0660260187",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["6afd16f2-e972-4caa-b4be-ba9035e8e75d"]
+  }],
+  "urls": ["https://opensource-demo.orangehrmlive.com/"],
+  "plugins": []
+}

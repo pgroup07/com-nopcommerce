@@ -1,0 +1,215 @@
+{
+  "id": "306c59c5-b531-417e-9a9c-7c3edac1e70e",
+  "version": "2.0",
+  "name": "com-ultimateqa",
+  "url": "https://courses.ultimateqa.com",
+  "tests": [{
+    "id": "13d1b736-b69f-4c7f-849b-e02617159ece",
+    "name": "Test_ultimateqa",
+    "commands": [{
+      "id": "97861898-ad3c-4c0e-bafd-d1e1ae479e9a",
+      "comment": "",
+      "command": "open",
+      "target": "/users/sign_in",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "2acdd807-85ab-4cf5-a7f5-25bb006ffb9a",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1057x804",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "18243428-b53c-4e97-a62f-1fb4937f9e19",
+      "comment": "",
+      "command": "click",
+      "target": "css=.logo",
+      "targets": [
+        ["css=.logo", "css:finder"],
+        ["xpath=//img[contains(@src,'https://import.cdn.thinkific.com/3880/atEqmld7THac8c0DZQUz_horizontal_on_transparent_by_logaster.png')]", "xpath:img"],
+        ["xpath=//img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "6e050ddd-e1e2-4637-9d59-7967c18d80f3",
+      "comment": "",
+      "command": "click",
+      "target": "css=.page__heading",
+      "targets": [
+        ["css=.page__heading", "css:finder"],
+        ["xpath=//main[@id='main-content']/div/div/article/h2", "xpath:idRelative"],
+        ["xpath=//h2", "xpath:position"],
+        ["xpath=//h2[contains(.,'Welcome Back!')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "56d59d54-0a02-4a0d-9dc6-f607c17b3bdb",
+      "comment": "",
+      "command": "click",
+      "target": "css=.page__heading",
+      "targets": [
+        ["css=.page__heading", "css:finder"],
+        ["xpath=//main[@id='main-content']/div/div/article/h2", "xpath:idRelative"],
+        ["xpath=//h2", "xpath:position"],
+        ["xpath=//h2[contains(.,'Welcome Back!')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "bb658695-e310-4d76-8c75-00961d2de2a4",
+      "comment": "",
+      "command": "click",
+      "target": "id=user[email]",
+      "targets": [
+        ["id=user[email]", "id"],
+        ["name=user[email]", "name"],
+        ["css=#user\\[email\\]", "css:finder"],
+        ["xpath=//input[@id='user[email]']", "xpath:attributes"],
+        ["xpath=//form[@id='sign_in_1bfcc1851f']/div/input", "xpath:idRelative"],
+        ["xpath=//div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "8715ca15-52d0-4a0d-a9ad-9b1fdf4bfefc",
+      "comment": "",
+      "command": "click",
+      "target": "id=user[password]",
+      "targets": [
+        ["id=user[password]", "id"],
+        ["name=user[password]", "name"],
+        ["css=#user\\[password\\]", "css:finder"],
+        ["xpath=//input[@id='user[password]']", "xpath:attributes"],
+        ["xpath=//form[@id='sign_in_1bfcc1851f']/div[2]/input", "xpath:idRelative"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "e43f22b2-3709-4991-9af9-f6b2489d6679",
+      "comment": "",
+      "command": "mouseDown",
+      "target": "css=.form__label--checkbox",
+      "targets": [
+        ["css=.form__label--checkbox", "css:finder"],
+        ["xpath=//form[@id='sign_in_1bfcc1851f']/div[3]/label", "xpath:idRelative"],
+        ["xpath=//div[3]/label", "xpath:position"],
+        ["xpath=//label[contains(.,'Remember me')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "91358ffe-c632-4a13-bb19-a53f2a759af1",
+      "comment": "",
+      "command": "mouseUp",
+      "target": "id=sign_in_1bfcc1851f",
+      "targets": [
+        ["id=sign_in_1bfcc1851f", "id"],
+        ["css=#sign_in_1bfcc1851f", "css:finder"],
+        ["xpath=//form[@id='sign_in_1bfcc1851f']", "xpath:attributes"],
+        ["xpath=//main[@id='main-content']/div/div/article/form", "xpath:idRelative"],
+        ["xpath=//form", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "1e0c545f-9cd2-45e2-a45b-541379886514",
+      "comment": "",
+      "command": "click",
+      "target": "id=sign_in_1bfcc1851f",
+      "targets": [
+        ["id=sign_in_1bfcc1851f", "id"],
+        ["css=#sign_in_1bfcc1851f", "css:finder"],
+        ["xpath=//form[@id='sign_in_1bfcc1851f']", "xpath:attributes"],
+        ["xpath=//main[@id='main-content']/div/div/article/form", "xpath:idRelative"],
+        ["xpath=//form", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "682a6055-76e1-4af6-b5e0-9df106231da2",
+      "comment": "",
+      "command": "click",
+      "target": "css=.form__label--checkbox",
+      "targets": [
+        ["css=.form__label--checkbox", "css:finder"],
+        ["xpath=//form[@id='sign_in_1bfcc1851f']/div[3]/label", "xpath:idRelative"],
+        ["xpath=//div[3]/label", "xpath:position"],
+        ["xpath=//label[contains(.,'Remember me')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "5320a20f-b785-49e5-979d-14197306c90c",
+      "comment": "",
+      "command": "click",
+      "target": "css=.form__label--checkbox",
+      "targets": [
+        ["css=.form__label--checkbox", "css:finder"],
+        ["xpath=//form[@id='sign_in_1bfcc1851f']/div[3]/label", "xpath:idRelative"],
+        ["xpath=//div[3]/label", "xpath:position"],
+        ["xpath=//label[contains(.,'Remember me')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "0e3e8c80-19d9-41fd-8155-6705028f562b",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Forgot Password?",
+      "targets": [
+        ["linkText=Forgot Password?", "linkText"],
+        ["css=.form__forgot-password", "css:finder"],
+        ["xpath=//a[contains(text(),'Forgot Password?')]", "xpath:link"],
+        ["xpath=//form[@id='sign_in_1bfcc1851f']/div[3]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/users/password/new')]", "xpath:href"],
+        ["xpath=//div[3]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Forgot Password?')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "aa065050-9937-40c6-92c1-ab5d80a58d7c",
+      "comment": "",
+      "command": "click",
+      "target": "css=.button-primary",
+      "targets": [
+        ["css=.button-primary", "css:finder"],
+        ["xpath=//button[@type='submit']", "xpath:attributes"],
+        ["xpath=//form[@id='sign_in_1bfcc1851f']/div[5]/button", "xpath:idRelative"],
+        ["xpath=//div[5]/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Sign in')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "84785e67-6dca-4905-a509-dcb430bd7e19",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Create a new account",
+      "targets": [
+        ["linkText=Create a new account", "linkText"],
+        ["css=.sign-in__sign-up > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Create a new account')]", "xpath:link"],
+        ["xpath=//main[@id='main-content']/div/div/aside/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/users/sign_up')]", "xpath:href"],
+        ["xpath=//aside/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Create a new account')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "ab601460-0803-4158-b35e-70771601b74e",
+      "comment": "",
+      "command": "click",
+      "target": "css=.linkedin",
+      "targets": [
+        ["css=.linkedin", "css:finder"],
+        ["xpath=//main[@id='main-content']/div/div/article/div/ul/li/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://courses.thinkific.com/users/auth/linkedin?ss%5Breferral%5D=&ss%5Buser_return_to%5D=&ss%5Bvisitor_id%5D=1956422656')]", "xpath:href"],
+        ["xpath=//div/ul/li/a", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "2e42d93a-942e-4d70-91c4-0744296871a9",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["13d1b736-b69f-4c7f-849b-e02617159ece"]
+  }],
+  "urls": ["https://courses.ultimateqa.com/"],
+  "plugins": []
+}
